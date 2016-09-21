@@ -1,0 +1,165 @@
+.navbar-brand {
+  font-size:1.8em;
+  color:blue;
+}
+
+#topContainer {
+  background-image:url("../images/Brainitz_landing_page_photo_v2.jpg");
+  height:auto;
+  width:auto;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+#priceContainer {
+  background-color:#F0FFFF;
+  margin-top:80px;
+  height:auto;
+  width:auto;
+  background-size:cover;
+}
+
+#FAQContainer {
+  margin-top:80px;
+  color:white;
+  font-weight:bold;
+  height:auto;
+  width:auto;
+  background-size: cover;
+}
+
+#FAQContent {
+  background-color:#F0F8FF;
+  height:100%;
+  weight:100%;
+}
+
+#topRow {
+  margin-top:100px;
+  text-align:center;
+}
+
+#topRow h1 {
+  font-size:300%;
+}
+
+#emailSignup {
+  margin-top:50px;
+}
+
+#SignInModalTitle{
+	color:white;
+}
+
+.bold {
+  font-weight:bold;
+  color:black;
+}
+
+.marginTop {
+  margin-top:30px;
+}
+
+.center {
+  text-align:center;
+}
+
+.title {
+  color: black;
+  margin-top:100px;
+  font-size: 48px;
+}
+
+#details {
+  background-color: #3A99D8;
+}
+
+#demo {
+  padding-top:35px;
+  width:100%;
+}
+
+#community {
+  background-color: #40bf79;
+}
+
+#FAQ-header {
+	background-color:#1E90FF;
+	width:auto;
+	height:auto;
+}
+
+.marginBottom {
+  margin-bottom:30px;
+}
+
+.contentContainer {
+  text-align: center;
+}
+
+.teachifyImage {
+  width: 40vw;
+  height: auto;
+}
+
+.lead {
+  font-weight:bold;
+  font-size:200%;
+  color:red;
+}
+
+.lead2 {
+  font-weight:bold;
+  font-size:200%;
+  color:black;
+}
+
+.vjs-control-bar {
+  display: none;
+}
+
+.vjs-caption-settings {
+  display: none;
+}
+
+.icon-images {
+  width: 10vw;
+  height: auto;
+}
+
+.answer-cards {
+  text-align: center;
+}
+
+.answer-cards-content {
+  background-color: white;
+  height: 25vh;
+  width: 28vw;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.community-images {
+  width: 20vw;
+  height: auto;
+}
+
+.community-cards {
+  text-align: center;
+  padding: 150px;
+}
+
+.community-cards-content {
+  background-color: white;
+  height: 15vh;
+  width: 20vw;
+  padding: 25px;
+  margin-top: 20px;
+}
+.pricing-images {
+  width: 48vw;
+  height: auto;
+}
