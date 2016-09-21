@@ -3,11 +3,24 @@
   color:blue;
 }
 
+.modal-body {
+  z-index: 2000;
+}
+
+/*#topContainer {
+  background: url(../images/hero_main.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
 #topContainer {
-  background-image:url("../images/Brainitz_landing_page_photo_v2.jpg");
-  height:auto;
-  width:auto;
-  background-size:contain;
+  background-image: url("../images/science_splash_overlay.jpg");
+  /*position: fixed;*/
+  height: auto;
+  width: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #priceContainer {
