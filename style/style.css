@@ -1,24 +1,90 @@
+/*#012241 dark blue
+#2E495A lt blue
+#7CBDDA baby blue
+#A5A4A1 grey
+#F0EEEF white ish*/
+
+/*font-family: 'Roboto', sans-serif;*/
+
+
+.splash-title{
+  margin-top: 10%;
+  font-size: 12em;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  color:#7CBDDA;
+  font-weight: bold;
+  border-color: 1px solid black;
+  text-shadow: 2px 2px  4px #A5A4A1;
+}
+
+.btn-style{
+  background-color: #7CBDDA ;
+  color: white;
+  letter-spacing: .7px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 1px 1px 2px black;
+}
+
+.btn-style:hover {
+  color: #012241   !important;
+}
+
+.video-toggle-btn {
+  height: 10vh ;
+  width: 50vw ;
+  background-color: #012241;
+  margin-top: 30%;
+  box-shadow: 3px 3px 5px black;
+
+}
+.video-toggle-btn:hover{
+  background-color: #7CBDDA;
+}
+
+.splash-button-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  margin: auto;
+  color: #F0EEEF ;
+}
+.navbar {
+  background-color: #F0EEEF ;
+  letter-spacing: .8px;
+  opacity: .8;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
 .navbar-brand {
-  font-size:1.8em;
-  color:blue;
+  font-size:2.2em;
+  letter-spacing: .8px;
+  color: #7CBDDA  !important;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 1px #012241  ;
+
+}
+
+.navbar-brand:hover {
+  color: #2E495A   !important;
+}
+
+.navbar-nav li a {
+  color: #7CBDDA  !important;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav li a:hover {
+  color: #2E495A  !important;
 }
 
 .modal-body {
   z-index: 2000;
 }
-
-/*#topContainer {
-  background: url(../images/hero_main.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-
 #topContainer {
-  background-image: url("../images/science_splash_overlay.jpg");
-  /*position: fixed;*/
-  height: auto;
+  background-image: url("../images/science_splash.jpg");
+  height: 100vh;
   width: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,15 +146,18 @@
   color: black;
   margin-top:100px;
   font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 #details {
-  background-color: #3A99D8;
+  background-color:#F0CA4D ;
 }
 
 #demo {
   padding-top:35px;
   width:100%;
+  background-color: #E37B40;
 }
 
 #community {
@@ -105,8 +174,11 @@
   margin-bottom:30px;
 }
 
-.contentContainer {
+.content-container {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+
 }
 
 .teachifyImage {
@@ -145,10 +217,12 @@
 
 .answer-cards-content {
   background-color: white;
-  height: 25vh;
+  height: 40vh;
   width: 28vw;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 8%;
+  box-shadow: 10px 10px grey;
 }
 
 .card-text {
