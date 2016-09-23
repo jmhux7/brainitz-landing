@@ -143,15 +143,16 @@
 }
 
 .title {
-  color: black;
+  color: #F0EEEF;
   margin-top:100px;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
 
 }
 
 #details {
-  background-color:#F0CA4D ;
+  background-color:#012241  ;
 }
 
 #demo {
@@ -177,8 +178,8 @@
 .content-container {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-
-
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 .teachifyImage {
@@ -211,9 +212,7 @@
   height: auto;
 }
 
-.answer-cards {
-  text-align: center;
-}
+
 
 .answer-cards-content {
   background-color: white;
@@ -222,11 +221,13 @@
   padding: 20px;
   margin-top: 20px;
   border-radius: 8%;
-  box-shadow: 10px 10px grey;
+  box-shadow: 5px 5px 5px #A5A4A1;
 }
 
 .card-text {
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .community-images {
