@@ -8,7 +8,7 @@
 
 
 .splash-title{
-  margin-top: 10%;
+  margin-top: 3%;
   font-size: 12em;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
@@ -61,7 +61,7 @@
   letter-spacing: .8px;
   color: #7CBDDA  !important;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 1px 1px .5px #012241  ;
+  text-shadow: .5px .5px .5px #012241  ;
 }
 
 .modal-design{
