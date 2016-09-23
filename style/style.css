@@ -61,8 +61,14 @@
   letter-spacing: .8px;
   color: #7CBDDA  !important;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 1px 1px 1px #012241  ;
+  text-shadow: 1px 1px .5px #012241  ;
+}
 
+.modal-design{
+  background-color: black;
+}
+.modal-sign-in-text{
+  color: #F0EEEF;
 }
 
 .navbar-brand:hover {
@@ -78,10 +84,22 @@
 .navbar-nav li a:hover {
   color: #2E495A  !important;
 }
-
+.modal-dialog{
+  background-color:#A5A4A1;
+  opacity: .9;
+  padding-bottom: 2vh;
+}
 .modal-body {
   z-index: 2000;
 }
+.SignInFooter{
+  margin-left: 1vw;
+}
+.buttonTwo{
+  margin-left: 1vw;
+}
+
+
 #topContainer {
   background-image: url("../images/science_splash.jpg");
   height: 100vh;
@@ -143,15 +161,16 @@
 }
 
 .title {
-  color: black;
+  color: #F0EEEF;
   margin-top:100px;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
 
 }
 
 #details {
-  background-color:#F0CA4D ;
+  background-color:#012241  ;
 }
 
 #demo {
@@ -177,8 +196,8 @@
 .content-container {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-
-
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 .teachifyImage {
@@ -211,9 +230,7 @@
   height: auto;
 }
 
-.answer-cards {
-  text-align: center;
-}
+
 
 .answer-cards-content {
   background-color: white;
@@ -222,11 +239,13 @@
   padding: 20px;
   margin-top: 20px;
   border-radius: 8%;
-  box-shadow: 10px 10px grey;
+  box-shadow: 5px 5px 5px #A5A4A1;
 }
 
 .card-text {
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .community-images {
