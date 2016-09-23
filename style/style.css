@@ -61,8 +61,14 @@
   letter-spacing: .8px;
   color: #7CBDDA  !important;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 1px 1px 1px #012241  ;
+  text-shadow: 1px 1px .5px #012241  ;
+}
 
+.modal-design{
+  background-color: black;
+}
+.modal-sign-in-text{
+  color: #F0EEEF;
 }
 
 .navbar-brand:hover {
@@ -78,10 +84,22 @@
 .navbar-nav li a:hover {
   color: #2E495A  !important;
 }
-
+.modal-dialog{
+  background-color:#A5A4A1;
+  opacity: .9;
+  padding-bottom: 2vh;
+}
 .modal-body {
   z-index: 2000;
 }
+.SignInFooter{
+  margin-left: 1vw;
+}
+.buttonTwo{
+  margin-left: 1vw;
+}
+
+
 #topContainer {
   background-image: url("../images/science_splash.jpg");
   height: 100vh;
