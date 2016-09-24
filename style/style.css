@@ -1,14 +1,24 @@
-/*#012241 dark blue
-#2E495A lt blue
-#7CBDDA baby blue
-#A5A4A1 grey
-#F0EEEF white ish*/
+
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+
+
 
 /*font-family: 'Roboto', sans-serif;*/
 
 
 .splash-title{
-  margin-top: 10%;
+  margin-top: 35%;
   font-size: 12em;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
@@ -34,7 +44,7 @@
   height: 10vh ;
   width: 50vw ;
   background-color: #012241;
-  margin-top: 30%;
+  margin-top: 1%;
   box-shadow: 3px 3px 5px black;
 
 }
@@ -170,21 +180,22 @@
 }
 
 #details {
-  background-color:#012241  ;
+  background-color:#2E495A  ;
 }
 
 #demo {
   padding-top:35px;
   width:100%;
-  background-color: #E37B40;
+  background-color: #DB9E36;
+  text-align: center;
 }
 
 #community {
-  background-color: #40bf79;
+  background-color: #468966;
 }
 
 #FAQ-header {
-	background-color:#1E90FF;
+	background-color:#2E495A;
 	width:auto;
 	height:auto;
 }
@@ -230,11 +241,9 @@
   height: auto;
 }
 
-
-
 .answer-cards-content {
   background-color: white;
-  height: 40vh;
+  height: 45vh;
   width: 28vw;
   padding: 20px;
   margin-top: 20px;
@@ -245,7 +254,6 @@
 .card-text {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .community-images {
@@ -255,15 +263,17 @@
 
 .community-cards {
   text-align: center;
-  padding: 150px;
+  padding: 85px;
 }
 
 .community-cards-content {
   background-color: white;
-  height: 15vh;
+  height: 30vh;
   width: 20vw;
   padding: 25px;
   margin-top: 20px;
+  box-shadow: 5px 5px 5px #A5A4A1;
+  border-radius: 8%;
 }
 .pricing-images {
   width: 48vw;
