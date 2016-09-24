@@ -20,7 +20,7 @@ h3, p{
   font-family: 'Roboto', sans-serif;
 }
 .splash-title{
-  margin-top: 3%;
+  margin-top: -1%;
   font-size: 12em;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
@@ -46,7 +46,7 @@ h3, p{
   height: 10vh ;
   width: 50vw ;
   background-color: #012241;
-  margin-top: 1%;
+  margin-top: 15%;
   box-shadow: 3px 3px 5px black;
 
 }
@@ -73,7 +73,7 @@ h3, p{
   letter-spacing: .8px;
   color: #7CBDDA  !important;
   font-family: 'Roboto', sans-serif;
-  text-shadow: .5px .5px .5px #012241  ;
+  /*text-shadow: .3px .3px 1px #012241  ;*/
 }
 
 .modal-design{
