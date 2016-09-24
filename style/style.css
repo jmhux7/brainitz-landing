@@ -1,14 +1,26 @@
-/*#012241 dark blue
-#2E495A lt blue
-#7CBDDA baby blue
-#A5A4A1 grey
-#F0EEEF white ish*/
+
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+
+
 
 /*font-family: 'Roboto', sans-serif;*/
 
-
+h3, p{
+  font-family: 'Roboto', sans-serif;
+}
 .splash-title{
-  margin-top: 3%;
+  margin-top: -1%;
   font-size: 12em;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
@@ -34,7 +46,7 @@
   height: 10vh ;
   width: 50vw ;
   background-color: #012241;
-  margin-top: 30%;
+  margin-top: 15%;
   box-shadow: 3px 3px 5px black;
 
 }
@@ -61,7 +73,7 @@
   letter-spacing: .8px;
   color: #7CBDDA  !important;
   font-family: 'Roboto', sans-serif;
-  text-shadow: .5px .5px .5px #012241  ;
+  /*text-shadow: .3px .3px 1px #012241  ;*/
 }
 
 .modal-design{
@@ -170,21 +182,22 @@
 }
 
 #details {
-  background-color:#012241  ;
+  background-color:#2E495A  ;
 }
 
 #demo {
   padding-top:35px;
   width:100%;
-  background-color: #E37B40;
+  background-color: #DB9E36;
+  text-align: center;
 }
 
 #community {
-  background-color: #40bf79;
+  background-color: #468966;
 }
 
 #FAQ-header {
-	background-color:#1E90FF;
+	background-color:#2E495A;
 	width:auto;
 	height:auto;
 }
@@ -230,11 +243,9 @@
   height: auto;
 }
 
-
-
 .answer-cards-content {
   background-color: white;
-  height: 40vh;
+  height: 45vh;
   width: 28vw;
   padding: 20px;
   margin-top: 20px;
@@ -245,26 +256,32 @@
 .card-text {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-
 }
 
-.community-images {
+.-images {
   width: 20vw;
   height: auto;
 }
 
 .community-cards {
   text-align: center;
-  padding: 150px;
+  padding: 96px;
+
 }
 
 .community-cards-content {
-  background-color: white;
-  height: 15vh;
-  width: 20vw;
-  padding: 25px;
+  background-color: #F0EEEF;
+  height: 40vh;
+  width: 25vw;
+  padding: 20px;
   margin-top: 20px;
+  margin-left: -15%;
+
+  box-shadow: 5px 5px 5px #A5A4A1;
+  border-radius: 8%;
 }
+
+
 .pricing-images {
   width: 48vw;
   height: auto;
