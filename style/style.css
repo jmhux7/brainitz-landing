@@ -127,20 +127,6 @@ h3, p{
   background-size:cover;
 }
 
-#FAQContainer {
-  margin-top:80px;
-  color:white;
-  font-weight:bold;
-  height:auto;
-  width:auto;
-  background-size: cover;
-}
-
-#FAQContent {
-  background-color:#F0F8FF;
-  height:100%;
-  weight:100%;
-}
 
 #topRow {
   margin-top:100px;
@@ -196,10 +182,26 @@ h3, p{
   background-color: #468966;
 }
 
-#FAQ-header {
-	background-color:#2E495A;
-	width:auto;
-	height:auto;
+.FAQ-header {
+  color:#F0EEEF;
+  margin-top: 6%;
+  font-family: 'Roboto', sans-serif;
+}
+.container-background{
+  background-color: #F0EEEF;
+  height: 100vh;
+
+}
+.FAQContent {
+  margin-top: 2%;
+  background-color:#F0F8FF;
+  font-family: 'Roboto', sans-serif;
+  weight:100%;
+}
+.faq-content-container{
+  height: 20vh;
+  width:auto;
+  background-color:#2E495A;
 }
 
 .marginBottom {
