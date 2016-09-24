@@ -16,7 +16,9 @@
 
 /*font-family: 'Roboto', sans-serif;*/
 
-
+h3, p{
+  font-family: 'Roboto', sans-serif;
+}
 .splash-title{
   margin-top: 3%;
   font-size: 12em;
@@ -256,25 +258,29 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.community-images {
+.-images {
   width: 20vw;
   height: auto;
 }
 
 .community-cards {
   text-align: center;
-  padding: 85px;
+  padding: 96px;
 }
 
 .community-cards-content {
   background-color: white;
-  height: 30vh;
-  width: 20vw;
-  padding: 25px;
+  height: 40vh;
+  width: 25vw;
+  padding: 20px;
   margin-top: 20px;
+  margin-left: -10%;
+
   box-shadow: 5px 5px 5px #A5A4A1;
   border-radius: 8%;
 }
+
+
 .pricing-images {
   width: 48vw;
   height: auto;
