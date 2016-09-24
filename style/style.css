@@ -119,14 +119,47 @@ h3, p{
   background-size: cover;
   background-repeat: no-repeat;
 }
-#priceContainer {
-  background-color:#F0FFFF;
-  margin-top:80px;
-  height:auto;
-  width:auto;
-  background-size:cover;
-}
 
+.price-header-cont{
+  margin-top: 4.5%;
+  height: 11vh;
+  width:100%;
+  background-color: #2E495A;
+  background-size: cover;
+}
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+
+#pricing{
+  margin-top: 1vh;
+  color: #F0EEEF;
+  font-family: 'Roboto', sans-serif;
+}
+.beta-text-cont{
+  margin-top: -2%;
+  height: 10vh;
+  width: 100%;
+  background-color:#7CBDDA;
+}
+.pricing-container{
+  background-color:  #F0EEEF;
+  height:100vh;
+  width: 100%;
+}
+.beta-text-loc{
+  color: #F0EEEF;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2vh;
+}
 
 #topRow {
   margin-top:100px;
