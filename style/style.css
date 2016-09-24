@@ -266,15 +266,16 @@ h3, p{
 .community-cards {
   text-align: center;
   padding: 96px;
+
 }
 
 .community-cards-content {
-  background-color: white;
+  background-color: #F0EEEF;
   height: 40vh;
   width: 25vw;
   padding: 20px;
   margin-top: 20px;
-  margin-left: -10%;
+  margin-left: -15%;
 
   box-shadow: 5px 5px 5px #A5A4A1;
   border-radius: 8%;
