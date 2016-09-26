@@ -119,27 +119,129 @@ h3, p{
   background-size: cover;
   background-repeat: no-repeat;
 }
-#priceContainer {
-  background-color:#F0FFFF;
-  margin-top:80px;
-  height:auto;
-  width:auto;
-  background-size:cover;
-}
 
-#FAQContainer {
-  margin-top:80px;
-  color:white;
-  font-weight:bold;
-  height:auto;
-  width:auto;
+.price-header-cont{
+  margin-top: 4.5%;
+  height: 11vh;
+  width:100%;
+  background-color: #2E495A;
   background-size: cover;
 }
 
-#FAQContent {
-  background-color:#F0F8FF;
-  height:100%;
-  weight:100%;
+
+#pricing{
+  margin-top: 1vh;
+  color: #F0EEEF;
+  font-family: 'Roboto', sans-serif;
+}
+.beta-text-cont{
+  margin-top: -2%;
+  height: 10vh;
+  width: 100%;
+  background-color:#F0EEEF;
+}
+.pricing-container{
+  margin-top: 10vh;
+}
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+
+.main-container{
+  background-color: #2E495A;
+  height: 100vh;
+}
+.beta-text-loc{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2vh;
+}
+.beta-slogan{
+  margin-top: 5vh;
+  font-family: 'Roboto', sans-serif;
+  color: #F0EEEF;
+  font-size: 2.5em;
+}
+.pricing-box{
+  margin-top: 5vh;
+  color:#F0EEEF;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.hr1 {
+    display: block;
+    border: 0;
+    border-top: 3px solid #7CBDDA;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.hr2{
+  display: block;
+  border: 0;
+  border-top: 3px solid #012241;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+.block1{
+  height: 40vh;
+  background-color:#012241;
+
+}
+.block2{
+  height: 40vh;
+  background-color: #7CBDDA;
+}
+.block3{
+  height: 40vh;
+  background-color:#012241;
+}
+.block4{
+  height: 40vh;
+  background-color:#7CBDDA;
+}
+.pric-col-header{
+  margin-top: -2vh;
+  height:5vh;
+  width: 100%;
+  color:#F0EEEF;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.pric-col-header-middle{
+  background-color: ;
+  height:6vh;
+  width: 100%;
+  margin: auto;
+  color:#F0EEEF;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.btn-spacing{
+  margin-top: 5vh;
 }
 
 #topRow {
@@ -196,10 +298,26 @@ h3, p{
   background-color: #468966;
 }
 
-#FAQ-header {
-	background-color:#2E495A;
-	width:auto;
-	height:auto;
+.FAQ-header {
+  color:#F0EEEF;
+  margin-top: 6%;
+  font-family: 'Roboto', sans-serif;
+}
+.container-background{
+  background-color: #F0EEEF;
+  height: 100vh;
+
+}
+.FAQContent {
+  margin-top: 2%;
+  background-color:#F0F8FF;
+  font-family: 'Roboto', sans-serif;
+  weight:100%;
+}
+.faq-content-container{
+  height: 20vh;
+  width:auto;
+  background-color:#2E495A;
 }
 
 .marginBottom {

@@ -6,61 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brainitz Pricing</title>
-  
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">  
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
-queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></
-script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
-respond.min.js"></script>
-<![endif]-->
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body data-spy="scroll" data-target=".navbar-collapse">
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand">Brainitz</a>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-        </ul>
-		<form class="navbar-form navbar-right">          
-		  <a href="FAQ.html" class= "btn btn-primary">F.A.Q.</a>
-          <a href="Pricing.html" class="btn btn-success">Pricing</a>
-        </form>	
-	  </div>
-	
-	
-	</div>
-   </div>
-	<div class="container contentContainer" id="priceContainer">
-
-		<img class="pricing-images" src="images/pricing-header.png" alt=""/>
-		<h3> </h3>
-        <img class="pricing-images" src="images/pricing-details.png" alt=""/>	
-	
-    </div>
- 
-
+<body>
+  <nav class="pull-left navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="pull-left navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div>
+                  <a class="navbar-brand" href="#">Brainitz</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+                    <div class="pull-right">
+                      <form class="navbar-form navbar-right">
+                          <a href="FAQ.html" class= "btn btn-style">F.A.Q.</a>
+                          <a href="pricing.html" class="btn btn-style">Pricing</a>
+                      </form>
+                    </div>
+                </div>
+              </div>
+            </nav>
+    <div class="main-container">
+        <div class="price-header-cont">
+          <!-- <h1 class="text-center" id="pricing">Pricing</h1> -->
+        </div>
+        <h3 class="text-center beta-slogan">Beta users will recieve free premium features.</h3>
+        <div class="pricing-container">
+          <div class="col-md-12">
+              <div class="row text-center">
+                <div class="col-xs-6 col-sm-3 block1">
+                  <div class="pric-col-header">
+                    <h1>Basic</h1>
+                    <hr class="hr1">
+                  </div>
+                    <h3 class="pricing-box">Free</h3>
+                  <div class="pric-col-header-middle">
+                    <h3>Create Interactive Lessons</h3>
+                  </div>
+                    <button type="button" class="btn-block btn-spacing" name="button">Sign Up to be a beta user</button>
+                </div>
+                <div class="col-xs-6 col-sm-3 block2">
+                  <div class="pric-col-header">
+                    <h1>Teacher</h1>
+                    <hr class="hr2">
+                  </div>
+                    <h3 class="pricing-box">Free for beta users</h3>
+                  <div class="pric-col-header-middle">
+                    <h3>Access student and class data</h3>
+                  </div>
+                    <button type="button" class="btn-block btn-spacing" name="button">Sign Up to be a beta user</button>
+                </div>
+                <div class="col-xs-6 col-sm-3 block3">
+                  <div class="pric-col-header">
+                    <h1>Department</h1>
+                    <hr class="hr1">
+                  </div>
+                    <h3 class="pricing-box">Coming Soon</h3>
+                  <div class="pric-col-header-middle">
+                    <h3>Five Teacher Accounts</h3>
+                  </div>
+                    <button type="button" class="btn-block btn-spacing" name="button">Sign Up to be a beta user</button>
+                </div>
+                <div class="col-xs-6 col-sm-3 block4">
+                  <div class="pric-col-header">
+                    <h1>School</h1>
+                    <hr class="hr2">
+                  </div>
+                  <h3 class="pricing-box">Coming Soon</h3>
+                  <div class="pric-col-header-middle">
+                    <h3>20 Teacher Accounts. Contact us for more than 20.</h3>
+                  </div>
+                  <button type="button" class="btn-block btn-spacing" name="button">Sign Up to be a beta user</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
 </body>
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="http://vjs.zencdn.net/5.10.4/video.js"></script>
     <script src="plugins/videojs-youtube-master/src/Youtube.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as
-needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
