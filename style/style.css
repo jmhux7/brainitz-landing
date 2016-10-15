@@ -79,10 +79,11 @@ h3, p{
 .modal-design{
   background-color: black;
 }
-.modal-sign-in-text{
-  color: #F0EEEF;
-}
 
+.signUp{
+  margin-top: 5%;
+
+  }
 .navbar-brand:hover {
   color: #2E495A   !important;
 }
