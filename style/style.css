@@ -275,8 +275,16 @@ h3, p{
   text-align:center;
 }
 
+.title1{
+  color: #FAF1C9;
+  margin-top:100px;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+
+}
 .title {
-  color: #F0EEEF;
+  color: #28527D;
   margin-top:100px;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
@@ -291,12 +299,12 @@ h3, p{
 #demo {
   padding-top:35px;
   width:100%;
-  background-color: #DB9E36;
+  background-color: #022E4A;
   text-align: center;
 }
 
 #community {
-  background-color: #468966;
+  background-color: #FAF1C9;
 }
 
 .FAQ-header {
