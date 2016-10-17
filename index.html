@@ -153,19 +153,19 @@
             <h3 class="modal-sign-in-text text">Sign Up</h3>
             <form>
               <div class="form-group">
-              <input type="text" class="form-control signUp" placeholder="First Name">
-              <input type="text" class="form-control signUp" placeholder="Last Name">
-              <input type="text" class="form-control signUp" placeholder="School">
-              <input type="text" class="form-control signUp" placeholder="School District">
-              <input type="email" class="form-control signUp" placeholder="Email">
-              <input type="text" class="form-control signUp" placeholder="State">
+                <input class="first-name" type="text" class="form-control signUp" placeholder="First Name">
+                <input class="last-name" type="text" class="form-control signUp" placeholder="Last Name">
+                <input class="school" type="text" class="form-control signUp" placeholder="School">
+                <input class="district" type="text" class="form-control signUp" placeholder="School District">
+                <input class="email" type="email" class="form-control signUp" placeholder="Email">
+                <input class="state" type="text" class="form-control signUp" placeholder="State">
               </div>
             </form>
           </div>
 
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-primary btn-success">Submit</button>
+            <button class="submit-email" type="button" class="btn btn-primary btn-success">Submit</button>
           </div>
         </div>
       </div>
@@ -213,11 +213,11 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
     <script src="http://vjs.zencdn.net/5.10.4/video.js"></script>
     <script src="plugins/videojs-youtube-master/src/Youtube.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as
-needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/firebase.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 
