@@ -151,21 +151,37 @@
           </div>
           <div class="modal-body">
             <h3 class="modal-sign-in-text text">Sign Up</h3>
-            <form>
-              <div class="form-group">
-                <input class="first-name" type="text" class="form-control signUp" placeholder="First Name">
-                <input class="last-name" type="text" class="form-control signUp" placeholder="Last Name">
-                <input class="school" type="text" class="form-control signUp" placeholder="School">
-                <input class="district" type="text" class="form-control signUp" placeholder="School District">
-                <input class="email" type="email" class="form-control signUp" placeholder="Email">
-                <input class="state" type="text" class="form-control signUp" placeholder="State">
-              </div>
+            <form data-toggle="validator" role="form">
+                <div class="form-group">
+                  <label for="inputName" class="control-label first-name">First Name</label>
+                  <input type="text" maxlength="20" class="form-control" placeholder="John" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label last-name">Last Name</label>
+                  <input type="text" maxlength="20" class="form-control"  placeholder="Smith" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label school">School Name</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="Chatfield High School" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label district">District</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="Douglas County" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label email">Email</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="JohnDoe@gmail.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label state">State</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="Colorado" required>
+                </div>
             </form>
           </div>
 
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-            <button class="submit-email btn btn-success" type="button">Submit</button>
+            <button class="submit-email btn btn-success" type="button" data-dismiss="modal">Submit</button>
           </div>
         </div>
       </div>

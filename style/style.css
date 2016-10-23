@@ -80,10 +80,6 @@ h3, p{
   background-color: black;
 }
 
-.signUp{
-  margin-top: 5%;
-
-  }
 .navbar-brand:hover {
   color: #2E495A   !important;
 }
@@ -100,7 +96,6 @@ h3, p{
 .modal-dialog{
   background-color:#A5A4A1;
   opacity: .9;
-  padding-bottom: 2vh;
 }
 .modal-body {
   z-index: 2000;
