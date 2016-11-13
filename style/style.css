@@ -289,7 +289,7 @@ h3, p{
 
 }
 .title {
-  color: #28527D;
+  color: #F9EFC2;
   margin-top:100px;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
@@ -309,7 +309,7 @@ h3, p{
 }
 
 #community {
-  background-color: #FAF1C9;
+  background-color: #294050;
 }
 
 .FAQ-header {
@@ -359,7 +359,7 @@ h3, p{
 .lead2 {
   font-weight:bold;
   font-size:200%;
-  color:black;
+  color:#EEEBED;
 }
 
 .vjs-control-bar {
@@ -397,8 +397,6 @@ h3, p{
 
 .community-cards {
   text-align: center;
-
-
 }
 
 .community-cards-content {
@@ -408,7 +406,6 @@ h3, p{
   padding: 20px;
   margin-top: 20px;
   margin-left: 10%;
-
   box-shadow: 5px 5px 5px #A5A4A1;
   border-radius: 8%;
 }
