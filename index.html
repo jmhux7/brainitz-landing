@@ -119,7 +119,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title" id="myModalLabel">Brainitz Demo</h4>
+            <h4 class="modal-title">Brainitz Demo</h4>
           </div>
           <div class="modal-body">
             <video id="vid1"
@@ -151,21 +151,37 @@
           </div>
           <div class="modal-body">
             <h3 class="modal-sign-in-text text">Sign Up</h3>
-            <form>
-              <div class="form-group">
-                <input class="first-name" type="text" class="form-control signUp" placeholder="First Name">
-                <input class="last-name" type="text" class="form-control signUp" placeholder="Last Name">
-                <input class="school" type="text" class="form-control signUp" placeholder="School">
-                <input class="district" type="text" class="form-control signUp" placeholder="School District">
-                <input class="email" type="email" class="form-control signUp" placeholder="Email">
-                <input class="state" type="text" class="form-control signUp" placeholder="State">
-              </div>
+            <form data-toggle="validator" role="form">
+                <div class="form-group">
+                  <label for="inputName" class="control-label first-name">First Name</label>
+                  <input type="text" maxlength="20" class="form-control" placeholder="John" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label last-name">Last Name</label>
+                  <input type="text" maxlength="20" class="form-control"  placeholder="Smith" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label school">School Name</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="Chatfield High School" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label district">District</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="Douglas County" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label email">Email</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="JohnDoe@gmail.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="control-label state">State</label>
+                  <input type="text" maxlength="30" class="form-control"  placeholder="Colorado" required>
+                </div>
             </form>
           </div>
 
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-            <button class="submit-email btn btn-success" type="button">Submit</button>
+            <button class="submit-email btn btn-success" type="button" data-dismiss="modal">Submit</button>
           </div>
         </div>
       </div>
@@ -173,6 +189,96 @@
 <!-- End of Sign in Modal -->
 
 
+<!-- COMMUNITY MODAL A -->
+<div class="modal fade" id="ModalA" tabindex="-1" role="dialog" aria-labelledby="subverb" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Subject Verb Agreement</h4>
+      </div>
+      <div class="modal-body">
+        <video id="vidA"
+          class="video-js vjs-default-skin"
+          controls
+          preload="auto"
+          width="640"
+          height="360"
+          data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/Ka0AN4thouE"}], "youtube": { "ytControls": 2 } }'>
+        </video>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="playPauseA">Play/Pause</button>
+        <button type="button" id="modal-closeA" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END COMMUNITY MODAL A -->
+
+
+
+
+
+<!-- COMMUNITY MODAL B -->
+<div class="modal fade" id="ModalB" tabindex="-1" role="dialog" aria-labelledby="subverb" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Subject Verb Agreement</h4>
+      </div>
+      <div class="modal-body">
+        <video id="vid2"
+          class="video-js vjs-default-skin"
+          controls
+          preload="auto"
+          width="640"
+          height="360"
+          data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=Sa4UZt9Y9kI"}], "youtube": { "ytControls": 2 } }'>
+        </video>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="playPauseB">Play/Pause</button>
+        <button type="button" id="modal-closeB" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END COMMUNITY MODAL B -->
+
+<!-- START COMMUNITY MODAL C -->
+<div class="modal fade" id="ModalC" tabindex="-1" role="dialog" aria-labelledby="subverb" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Subject Verb Agreement</h4>
+      </div>
+      <div class="modal-body">
+        <video id="vidC"
+          class="video-js vjs-default-skin"
+          controls
+          preload="auto"
+          width="640"
+          height="360"
+          data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=_qbiEmQ-ubM"}], "youtube": { "ytControls": 2 } }'>
+        </video>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="playPauseC">Play/Pause</button>
+        <button type="button" id="modal-closeC" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END COMMUNITY MODAL C -->
 
 
 	<div class="container-fluid contentContainer" id="community">
@@ -180,7 +286,7 @@
     <p class="lead2 center">Check out what other teachers are creating.</p>
 	  <div class="row marginBottom">
          <div class="community-cards col-md-4 marginTop">
-          <img class="community-images" src="images/WWII-photo-2.png" alt=""/>
+        <a href="#community"><img class="community-images" data-toggle="modal" data-target="#ModalA" src="images/humanity.png" alt=""/></a>
           <br>
           <div class="community-cards-content">
             <h3>Suits All Learning Styles</h3>
@@ -189,7 +295,7 @@
           </div>
          </div>
         <div class="community-cards col-md-4 col-lg-4 marginTop">
-          <img class="community-images" src="images/astronaut_shot.png" alt=""/>
+          <a href="#community"><img class="community-images" data-toggle="modal" data-target="#ModalB" src="images/fractions.png" alt=""/></a>
           <br>
           <div class="community-cards-content">
             <h3>Content is Retained</h3>
@@ -198,7 +304,7 @@
           </div>
         </div>
         <div class="community-cards col-md-4 col-lg-4 marginTop">
-          <img class="community-images" src="images/community_division.png" alt=""/>
+          <a href="#community"><img class="community-images"  data-toggle="modal" data-target="#ModalC"  src="images/subject_verb.png" alt=""/></a>
           <br>
           <div class="community-cards-content">
             <h3>User Friendly Navigation</h3>
@@ -219,6 +325,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/firebase.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/modalB.js"></script>
+    <script type="text/javascript" src="js/modalA.js"></script>
+    <script type="text/javascript" src="js/modalC.js"></script>
+
+
+
+
   </body>
 
 </html>

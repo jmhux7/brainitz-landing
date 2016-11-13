@@ -53,7 +53,9 @@ h3, p{
 .video-toggle-btn:hover{
   background-color: #7CBDDA;
 }
-
+.video-js{
+  margin-top: 4vh;
+}
 .splash-button-text{
   font-family: 'Roboto', sans-serif;
   font-size: 2em;
@@ -80,12 +82,13 @@ h3, p{
   background-color: black;
 }
 
-.signUp{
-  margin-top: 5%;
-
-  }
 .navbar-brand:hover {
   color: #2E495A   !important;
+}
+
+.community-images{
+  height: 30vh;
+  width: 40vh;
 }
 
 .navbar-nav li a {
@@ -100,18 +103,19 @@ h3, p{
 .modal-dialog{
   background-color:#A5A4A1;
   opacity: .9;
-  padding-bottom: 2vh;
 }
+
 .modal-body {
   z-index: 2000;
 }
+
 .SignInFooter{
   margin-left: 1vw;
 }
+
 .buttonTwo{
   margin-left: 1vw;
 }
-
 
 #topContainer {
   background-image: url("../images/science_splash.jpg");
@@ -129,18 +133,19 @@ h3, p{
   background-size: cover;
 }
 
-
 #pricing{
   margin-top: 1vh;
   color: #F0EEEF;
   font-family: 'Roboto', sans-serif;
 }
+
 .beta-text-cont{
   margin-top: -2%;
   height: 10vh;
   width: 100%;
   background-color:#F0EEEF;
 }
+
 .pricing-container{
   margin-top: 10vh;
 }
@@ -284,7 +289,7 @@ h3, p{
 
 }
 .title {
-  color: #28527D;
+  color: #F9EFC2;
   margin-top:100px;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
@@ -304,7 +309,7 @@ h3, p{
 }
 
 #community {
-  background-color: #FAF1C9;
+  background-color: #294050;
 }
 
 .FAQ-header {
@@ -354,7 +359,7 @@ h3, p{
 .lead2 {
   font-weight:bold;
   font-size:200%;
-  color:black;
+  color:#EEEBED;
 }
 
 .vjs-control-bar {
@@ -392,8 +397,6 @@ h3, p{
 
 .community-cards {
   text-align: center;
-  padding: 96px;
-
 }
 
 .community-cards-content {
@@ -402,8 +405,7 @@ h3, p{
   width: 25vw;
   padding: 20px;
   margin-top: 20px;
-  margin-left: -15%;
-
+  margin-left: 10%;
   box-shadow: 5px 5px 5px #A5A4A1;
   border-radius: 8%;
 }
