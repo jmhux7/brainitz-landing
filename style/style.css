@@ -53,7 +53,9 @@ h3, p{
 .video-toggle-btn:hover{
   background-color: #7CBDDA;
 }
-
+.video-js{
+  margin-top: 4vh;
+}
 .splash-button-text{
   font-family: 'Roboto', sans-serif;
   font-size: 2em;
@@ -84,6 +86,11 @@ h3, p{
   color: #2E495A   !important;
 }
 
+.community-images{
+  height: 30vh;
+  width: 40vh;
+}
+
 .navbar-nav li a {
   color: #7CBDDA  !important;
   font-size: 1.2em;
@@ -97,16 +104,18 @@ h3, p{
   background-color:#A5A4A1;
   opacity: .9;
 }
+
 .modal-body {
   z-index: 2000;
 }
+
 .SignInFooter{
   margin-left: 1vw;
 }
+
 .buttonTwo{
   margin-left: 1vw;
 }
-
 
 #topContainer {
   background-image: url("../images/science_splash.jpg");
@@ -124,18 +133,19 @@ h3, p{
   background-size: cover;
 }
 
-
 #pricing{
   margin-top: 1vh;
   color: #F0EEEF;
   font-family: 'Roboto', sans-serif;
 }
+
 .beta-text-cont{
   margin-top: -2%;
   height: 10vh;
   width: 100%;
   background-color:#F0EEEF;
 }
+
 .pricing-container{
   margin-top: 10vh;
 }
@@ -387,7 +397,7 @@ h3, p{
 
 .community-cards {
   text-align: center;
-  padding: 96px;
+
 
 }
 
@@ -397,7 +407,7 @@ h3, p{
   width: 25vw;
   padding: 20px;
   margin-top: 20px;
-  margin-left: -15%;
+  margin-left: 10%;
 
   box-shadow: 5px 5px 5px #A5A4A1;
   border-radius: 8%;
