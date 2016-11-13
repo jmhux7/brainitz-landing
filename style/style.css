@@ -102,7 +102,6 @@ h3, p{
 }
 .modal-dialog{
   background-color:#A5A4A1;
-  opacity: .9;
 }
 
 .modal-body {
@@ -353,7 +352,7 @@ h3, p{
 .lead {
   font-weight:bold;
   font-size:200%;
-  color:red;
+  color:#ECE8EA;
 }
 
 .lead2 {
